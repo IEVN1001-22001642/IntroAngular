@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesListComponent } from './heroes/heroes-list/heroes-list.component';
 import { HeroesFilterPipe } from './heroes/heroes-filter.pipe';
+import { OperasBasComponent } from './formularios/operas-bas/operas-bas.component';
+import { DistanciaComponent } from './formularios/distancia/distancia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesListComponent,
-    HeroesFilterPipe
+    HeroesFilterPipe,
+    OperasBasComponent,
+    DistanciaComponent
   ],
   imports: [
     BrowserModule,

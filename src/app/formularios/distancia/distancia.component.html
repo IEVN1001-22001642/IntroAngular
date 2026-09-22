@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h1>Calcular distancia</h1>
+        <form>
+          <div class="form-group pt-4">
+            <label for="num1">x1: </label>
+            <input [(ngModel)]="x1" name="x1" type="text"
+            class="form-control" id="x1" placeholder="Ingrese x1"/>
+          </div>
+          <div class="form-group pt-4">
+            <label for="num2">x2: </label>
+            <input [(ngModel)]="x2" name="x2" type="text"
+            class="form-control" id="x2" placeholder="Ingrese x2"/>
+          </div>
+          <div class="form-group pt-4">
+            <label for="num1">y1: </label>
+            <input [(ngModel)]="y1" name="y1" type="text"
+            class="form-control" id="y1" placeholder="Ingrese y1"/>
+          </div>
+          <div class="form-group pt-4">
+            <label for="num2">x2: </label>
+            <input [(ngModel)]="y2" name="y2" type="text"
+            class="form-control" id="y2" placeholder="Ingrese y2"/>
+          </div>
+          <br/>
+          <button (click)="distancia()" type="button"
+          class="btn btn-primary">
+            Calcular
+          </button>
+        </form>
+      </div>
+      <div class="col-6">
+        <h2>Resultado: {{res}}</h2>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
