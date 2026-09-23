@@ -7,6 +7,8 @@ import { HeroesListComponent } from './heroes/heroes-list/heroes-list.component'
 import { HeroesFilterPipe } from './heroes/heroes-filter.pipe';
 import { OperasBasComponent } from './formularios/operas-bas/operas-bas.component';
 import { DistanciaComponent } from './formularios/distancia/distancia.component';
+import { AreasComponent } from './formularios/areas/areas.component';
+import { UsuariosComponent } from './formularios/usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { DistanciaComponent } from './formularios/distancia/distancia.component'
     HeroesListComponent,
     HeroesFilterPipe,
     OperasBasComponent,
-    DistanciaComponent
+    DistanciaComponent,
+    AreasComponent,
+    UsuariosComponent
   ],
   imports: [
     BrowserModule,
